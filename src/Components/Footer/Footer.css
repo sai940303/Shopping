@@ -1,0 +1,32 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 0;
+    height: 350px;
+  }
+  
+  .footer h5 {
+    color: white;
+  }
+  
+  .footer a {
+    color: #d3d3d3;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-col {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-col {
+      text-align: center;
+    }
+  }
+  
+

@@ -1,0 +1,250 @@
+
+
+
+
+.section1{
+    display: flex;
+    
+    
+}
+
+.cards{
+   
+    width: 150vh;
+    position: relative;
+    left: 10%;
+    gap: 250px;
+    margin-top: 80px;
+    border-radius: 18px;
+   
+}
+
+.card0{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 30px;
+   margin-right: 60px;
+}
+
+.card0{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 110px;
+    border-radius: 50px;
+}
+
+.card2 img{
+ 
+    height: 150px;
+    width: 140px;
+   margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+
+.card0 img{
+ 
+    height: 160px;
+    width: 140px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+.card2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 30px;
+   margin-right: 60px;
+ 
+}
+
+.card2{
+    display: flex;
+    gap: 60px;
+    margin-left: 110px;
+    border-radius: 50px;
+   
+}
+
+
+.round .col-md-4 {
+    
+    width: 188px;
+    gap: 100px;
+    margin-left: 0%;
+}
+
+.round .col-md-4 img {
+    width: 150px;
+}
+
+
+.round1{
+    background-color:white;
+    margin: 20px;
+    
+}
+
+.section2{
+    margin-top: 10px;
+}
+
+
+
+
+.section3{
+    background-color: #efecec;
+  
+   
+  
+}
+
+
+
+
+.section3 h3{
+    margin: 40px;
+    padding: 30px;
+}
+
+
+.section{
+    background-color: #ffffff;
+    display: flex;
+    overflow: scroll;
+    gap: 80px;
+}
+
+.section img{
+    width: 80px;
+    height: 80px;
+   
+    margin-top: 30px;
+}
+
+.section h3{
+    font-size: 20px;
+    margin: 20px ;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+.section3 button{
+    margin-right: 10px;
+    margin-left: 7px;
+    border: none;
+    background-color: orangered;
+    padding:3px;
+    border-radius: 5px;
+    width: 100px;
+
+}
+
+
+.list{
+    position: relative;
+    left: 13%;
+    
+
+    
+}
+.list h3:hover{
+    color: rgb(5, 248, 5);
+    
+}
+
+ .list a {
+    text-decoration: none;
+    border-bottom: none;
+    color: black;
+    
+}
+
+.list .Mens{
+    margin-left: 20px;
+}
+
+
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.App-header{
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the loading message take full viewport height */
+    font-size: 1.5rem; /* Optional: To increase the font size */
+    font-weight: bold; /* Optional: To make the text bold */
+  }
+  
+
+
+  .section2 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .section2 h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .section2 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .section2 h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section5{
+    display: flex;
+    overflow: scroll;
+   margin-bottom: 50px;
+
+  }
+  .section5 .card{
+  width: 250px;
+  height: 250px;
+  }
+
+
+  .section5 .card img{
+   width: 180px;
+   height: 150px;
+   position: relative;
+   left: 25px;
+   top: 5px;
+  }
+  .section5 .card-title{
+  position: relative;
+  left: 40px;
+   
+  }

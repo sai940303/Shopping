@@ -1,0 +1,125 @@
+/* Cart container */
+.Cart {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Cart title */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Individual cart item layout */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.cart-item img {
+  width: 100px;          
+  height: 100px;          
+ margin-right: 30px;  
+}
+
+/* Item title */
+.cart-item h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Item price */
+.cart-item h4 {
+  font-size: 1rem;
+  color: #888;
+  margin: 0 15px;
+}
+
+
+.cart-item > div {
+  display: flex;
+  align-items: center;
+}
+
+.quantity{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Total price per item */
+
+
+/* Title container */
+.cart-item .titel {
+  flex-grow: 1; /* Allows the title to take up remaining space */
+  margin-right: 20px;
+}
+
+.cart-item .titel h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  white-space: normal; /* Allows wrapping */
+  word-wrap: break-word; /* Breaks long words if necessary */
+  max-width: 300px; /* Adjust this value to control when the title breaks */
+}
+
+
+
+
+/* Total price section styling */
+.Cart-total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.proceed-checkout {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.proceed-checkout button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.proceed-checkout button:hover {
+  background-color: #218838;
+}
+
+
+

@@ -1,0 +1,135 @@
+.open{
+    background-color:#05080e;
+    
+    
+    }
+    
+    .navbar-brand {
+        color: white;
+      }
+      .d-flex button{
+        background-color: rgb(205, 57, 3);
+        color: #05080e;
+      }
+    .body{
+        background-color:white;
+    }
+    
+    .slider img{
+        height: 420px;
+        
+    }
+    .link{
+        color: white;
+    }
+    #navbarScrollingDropdown {
+        color: white;
+    }
+    
+    .me-auto a:hover{
+        color: orange;
+    
+    }.navbar-brand:hover{
+        color: white;
+    }
+    
+    
+    
+    .MuiBox-root{
+    
+        margin-top: -20px;
+    
+    }
+    .me-auto:active {
+        
+        color: white;
+    }
+    
+    #cart-icon{
+        margin-right: 20px;
+        width: 50px;
+        height: 40px;
+    
+    }
+    #cart-icon:hover{
+        color: blue;
+    }
+    #cart-icon:active{
+        color: red;
+    }
+    
+    
+    
+    
+    
+    .section4{
+        display: flex;
+        flex-wrap: wrap;
+        background-color:whitesmoke;
+        gap: 60px;
+        border-radius: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       border-radius: 50px;
+        margin-top: 30px;
+       margin: 20px;
+    }
+    .section4 button{
+        margin-right: 10px;
+        margin-left: 7px;
+        border: none;
+        background-color: orangered;
+        padding:3px;
+        border-radius: 5px;
+        width: 100px;
+    
+    }
+    
+    
+    .cat1{
+        margin: 20px;
+    }
+    
+    
+    
+    .cat1 img{
+        height: 200px;
+        width: 140px;
+       margin-left: 80px;
+        margin-top: 10px;
+        
+    }
+    
+    #search{
+       margin-top: 3px;
+       margin-left: 10px;
+        
+    
+    }
+    
+    .search{
+        display: flex;
+    }
+    
+    
+    
+    /* NavScrollExample.css */
+    
+    /* Change the background color of the navbar toggle icon */
+    .navbar-toggler {
+        border: none; /* Remove border */
+      }
+      
+      /* Override the default toggle icon */
+      .navbar-toggler-icon {
+        background-color: white;
+        border-radius: 5px;
+        
+      }
+      
+      .g-4{
+        margin-bottom: 20px;
+        display: flex;
+       
+      }
